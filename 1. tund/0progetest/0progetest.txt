@@ -1,0 +1,31 @@
+Kirjuta taasjooksutatav programm (kui kasutaja seda tahab), mis kasutab funktsioone (def) ja:
+* Loeb sisse faili, mille nime kasutajalt küsitakse (eeldada, et kasutaja kirjutab õige failinime sisendisse), kus on sees arvud reakaupa formaadis: [Kreeka täht(nt. alfa)] : [väärtus (nt. 100)]
+* Seejärel lisab see need sõnastikku ja kui ühte kreeka tähte esineb mitu korda, siis liidab see nende väärtused
+* Seejärel prindib see välja suurima väärtusega kreeka tähe ja selle väärtuse (samale reale)
+* Ja lõpuks kirjutab kõik sõnastiku väärtused faili, mille kasutaja sisestab samas vormingus kui algsisendi. (tähed peavad olema samas järjekorras, milles nad sisendfailis esinesid)
+
+Näide:
+----------Sisend.txt-----------
+Alfa : 100
+Beeta : 200
+Gamma : 400
+Alfa : 12
+Beeta : 4
+Delta : 500000
+-----------Lõpp-----------------
+
+
+----Programmi jooksutuskäigu näide----
+"Palun sisestage sisendfaili nimi: " Sisend.txt
+"Delta 500000"
+"Palun sisestage väljundfaili nimi: " Väljund.txt
+"Kas soovid programmi uuesti jooksutada? " Ei (selle vastus peab olema case insensitive. Et programm lõppeks võib kasutaja kirjutada EI ei eI Ei. Selle saavutamiseks ära kirjuta if-i, mis prooviks läbi kõik võimalikud juhud, vaid tee seda teistmoodi, sul on google abiks)
+------------------Lõpp-----------------
+
+
+----------Väljund.txt-----------
+Alfa : 112
+Beeta : 204
+Gamma : 400
+Delta : 500000
+------------Lõpp-----------------

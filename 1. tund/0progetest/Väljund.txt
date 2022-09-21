@@ -1,0 +1,4 @@
+Alfa : 112
+Beeta : 204
+Gamma : 400
+Delta : 500000
