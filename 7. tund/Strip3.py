@@ -1,0 +1,3 @@
+a = "qrjtfpoi4wujfgpiqiüThe fitnessgram pacer test is a multistage aerobic capacity test, which progressively gets more difficult as it continues231t+4295+30495+\""
+#kasutame siin escape characteri - \ (taguripidi kaldkrips - altgr + plus) - saab stringide sisse nt. panna kooloneid. Python ignoreerib tähti ja märke, mis ilmuvad pärast escape characteri ja võtab neid tekstina, mitte süntaksi osana
+print(a.strip("qrjtfpoi4wujfgqü231r+4950\""))
